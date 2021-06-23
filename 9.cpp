@@ -31,11 +31,13 @@ public:
         {
             if ((arr[i] <= avg - k) || (arr[i] >= avg + k))
             {
-               if(arr[i] >= avg + k){
-                   modMax<arr[i]-k?modMax=arr[i]-k:;
-               }else{
-
-               }
+                if (arr[i] >= avg + k)
+                {
+                    modMax < arr[i] - k ? modMax = arr[i] - k: ;
+                }
+                else
+                {
+                }
             }
             else
             {
